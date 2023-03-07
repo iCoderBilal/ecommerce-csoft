@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- -------------------------bootstrap linking-------------------- -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- -------------------------bootstrap linking-------------------- -->
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!-- ---------------------------------style-------------------------------- -->
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <!-- -------------------------------style-------------------------------- -->
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="website-header">
+      <!-- -------------navbar--------------- -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Logo Here</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+
+            <div class="header-contact-info">
+              <span class="mail-info">
+                <img src="./assets/mail-icon.svg" alt="" />
+                <a>ecommerce@gmail.com</a>
+              </span>
+
+              <span class="phone-info">
+                <img src="./assets/phone-icon.svg" alt="" />
+                <a>+92 322 7654456</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- -------------navbar--------------- -->
+
+      <!-- -----------------------header-top-bar--------------------- -->
+      <div class="header-top-bar">
+        <div class="top-bar-content">
+          <div class="top-bar-content-child d-flex">
+            <img src="./assets/category-icon.svg" alt="" class="me-2" />
+            <h3 class="pt-2">Shop By Category</h3>
+          </div>
+
+          <div class="top-bar-content-child search-child">
+            <input
+              type="email"
+              placeholder="Type Here..."
+              class="search-child-input"
+            />
+            <span>
+              <button>Search</button>
+            </span>
+          </div>
+
+          <div class="top-bar-content-child d-flex justify-content-center">
+            <img src="./assets/login-icon.svg" alt="" class="me-2" />
+            <p class="text-center">Login / Sign up</p>
+          </div>
+        </div>
+      </div>
+      <!-- -----------------------header-top-bar--------------------- -->
+    </div>
+
+    <!-- _______________________________________WEBSITE-HEADER DONE================================= -->
+
+    <!-- _____________________hero-section___________________________ -->
+    <div id="homepage-hero-section">
+      <div class="conatiner-fluid">
+        <div class="row">
+          <div class="col-lg-3 hero-section-top col-sm-12">
+            <ul>
+              <li>
+                <img src="./assets/mouse-icon.svg" alt="" />
+                <div>
+                  <p class="align-self-center">Computer and Accessories</p>
+                </div>
+              </li>
+
+              <li>
+                <img src="./assets/camera-icon.svg" alt="" />
+                <p class="align-self-center">Cameras , Audios & Videos</p>
+              </li>
+
+              <li>
+                <img src="./assets/tablet-icon.svg" alt="" />
+                <p class="align-self-center">Phones & Tablets</p>
+              </li>
+
+              <li>
+                <img src="./assets/tv-icon.svg" alt="" />
+                <p class="align-self-center">TV & Display</p>
+              </li>
+
+              <li>
+                <img src="./assets/smart-phone-icon.svg" alt="" />
+                <p class="align-self-center">Smart Phone</p>
+              </li>
+
+              <li>
+                <img src="./assets/watch-icon.svg" alt="" />
+                <p class="align-self-center">Watches & Eye Wear</p>
+              </li>
+
+              <li>
+                <img src="./assets/headphone-icon.svg" alt="" />
+                <p class="align-self-center">Head Phone & Speakers</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 hero-section-center col-sm-12">
+            <div class="hero-section-images">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div
+                    class="swiper-slide"
+                    style="
+                      background: url(./assets/slider-1.jpg);
+                      background-size: cover;
+                    "
+                  >
+                    <div class="slider-content">
+                      <h2>
+                        TV <br />
+                        Shop
+                      </h2>
+                      <button>Shop Now</button>
+                    </div>
+                  </div>
+                  <div
+                    class="swiper-slide"
+                    style="
+                      background: url(./assets/slider-2.jpg);
+                      background-size: cover;
+                    "
+                  >
+                    <div class="slider-content">
+                      <h2>
+                        TV <br />
+                        Shop
+                      </h2>
+                      <button>Shop Now</button>
+                    </div>
+                  </div>
+                  <div
+                    class="swiper-slide"
+                    style="
+                      background: url(./assets/slider-3.jpg);
+                      background-size: cover;
+                    "
+                  >
+                    <div class="slider-content">
+                      <h2>
+                        TV <br />
+                        Shop
+                      </h2>
+                      <button>Shop Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 hero-section-bottom col-sm-12">
+            <div class="hero-section-bottom-card text-center">
+              <img src="./assets/controller.svg" alt="" />
+              <h3>Sony Dual Shop 4 <br />+ USB 3.0 Cable</h3>
+              <div class="star text-center">
+                <span> <img src="./assets/good-star.svg" alt="" /></span>
+                <span> <img src="./assets/good-star.svg" alt="" /></span>
+                <span> <img src="./assets/good-star.svg" alt="" /></span>
+                <span> <img src="./assets/good-star.svg" alt="" /></span>
+                <span> <img src="./assets/bad-star.svg" alt="" /></span>
+              </div>
+              <h5><span class="seven-2-9">$729</span>$500</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- _____________________________________________TOP_CATEGORY________________________________________________ -->
+    <div id="top-category">
+      <div class="container-fluid">
+        <div class="section-heading">
+          <div class="heading-line-data">
+            <div class="heading-line"></div>
+          </div>
+          <h2 class="text-center">Top Category</h2>
+          <div class="heading-line-data">
+            <div class="heading-line"></div>
+          </div>
+        </div>
+        <div class="heading-description">
+          <p class="text-center">
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+            consectetur, adipisci velit,sed quia non numquam eius modi tempora
+            incidunt
+          </p>
+        </div>
+
+        <div class="top-category-cards">
+          <div class="row">
+            <div class="col-sm top-category-cards">
+              <img
+                src="./assets/iphone14-promsx.svg"
+                alt=""
+                class="text-center"
+              />
+              <h3>Smart Phone</h3>
+              <h4>17 Products</h4>
+            </div>
+            <div class="col-sm top-category-cards">
+              <img src="./assets/categoory-laptp.svg" alt="" />
+              <h3>Laptops</h3>
+              <h4>12 Products</h4>
+            </div>
+            <div class="col-sm top-category-cards">
+              <img src="./assets/category-headphones.svg" alt="" />
+              <h3>Head Phones</h3>
+              <h4>12 Products</h4>
+            </div>
+            <div class="col-sm top-category-cards">
+              <img src="./assets/category-smart-watches.svg" alt="" />
+              <h3>Smart Watches</h3>
+              <h4>17 Products</h4>
+            </div>
+            <div class="col-sm top-category-cards">
+              <img src="./assets/apple-ipad-pro-11.svg" alt="" />
+              <h3>Apple Tablets</h3>
+              <h4>17 Products</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------------------bootstrap linking-------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+    <!-- -------------------------bootstrap linking-------------------- -->
+  </body>
+</html>
