@@ -260,3 +260,210 @@ p,h2{
     color: #000000;
     
   }
+
+  /* <!-- ______________________________________________FOR-TRAVELS________________________________ --> */
+
+#for-travel{
+    padding: 0 3.8vw;
+    padding-top: 70px;
+}
+
+#for-travel .section-heading{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    }
+  
+    #for-travel .section-heading .heading-line-data{
+      flex-basis: 32%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    }
+    #for-travel .section-heading .heading-line{
+      width: 100%;
+      height: 1.5px;
+      background: rgba(0, 0, 0, 0.35);;
+      text-align: center;
+    }
+  
+    #for-travel .section-heading h2{
+      flex-basis: 36%;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 36px;
+      color: #000000;
+      /* margin-top: -19px; */
+    }
+
+
+
+    .for-travel-main-data{
+        display: flex;
+        flex-wrap: wrap;
+
+      }
+
+      .for-travel-card{
+        flex-basis: 33.3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 60px;
+      }
+    
+      .for-travel-card img{
+        height: 164px;
+      }
+     
+      .for-travel-card h3{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+        padding-top: 8px;
+      }
+    
+      .for-travel-card h4{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #2FC6BD;
+      }
+
+
+  .for-travel-bottom{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+  }
+
+  .for-travel-bottom-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 17px 0;
+  }
+
+  .for-travel-bottom-data p{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+
+    color: rgba(0, 0, 0, 0.5);
+    padding: 10px 40px 0 40px;
+  }
+
+
+
+  /* <!-- _______________________________________________TOP-MOBILE-PHONES_______________________________________________ --> */
+#top-mobile-phones{
+    padding-top: 80px;
+}
+
+  .top-mobile-phones-top{
+    height: 240px;
+    background: black;
+    display: flex;
+    align-items: center;
+    padding-left: 4vw;
+}
+
+
+
+.top-mobile-phones-content h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+.top-mobile-phones-content button{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    padding: 14px 11px;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+.top-mobile-phones-bottom{
+background: url(../assets/top-mobile-phone-bg.jpg);
+height: 240px;
+background-size: cover;
+}
+
+/* 
+<!-- _________________________________________LIST______________________________________ --> */
+.list-cards{
+    padding-top: 65px;
+}
+
+.list-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+  }
+  .list-cards-img{
+    width: 216px;
+    height: 216px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    
+  }
+  .list-cards img{
+    height: 164px;
+  }
+ 
+  .list-cards h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+  }
+
+  .list-cards h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    color: rgba(0, 0, 0, 0.5);
+  }
