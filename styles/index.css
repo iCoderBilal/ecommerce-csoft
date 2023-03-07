@@ -218,3 +218,45 @@ p,h2{
     color: #000000;
     color: rgba(0, 0, 0, 0.5);
   }
+/* 
+  <!-- ___________________________________________________STEPS_______________________________________________ --> */
+  #steps-section{
+    padding-top: 70px;
+  }
+   #steps-section .step-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+  .step-card .number h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 97px;
+
+    color: #2FC6BD;
+  }
+
+  .step-card .number-data h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+  
+    
+    color: #000000;
+    
+  }
+
+  .step-card .number-data p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+ 
+    color: #000000;
+    
+  }
