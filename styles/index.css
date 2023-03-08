@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-p,h2{
+p,h2,h4{
     margin-bottom: 0;
 }
 
@@ -426,6 +426,7 @@ background-size: cover;
 <!-- _________________________________________LIST______________________________________ --> */
 .list-cards{
     padding-top: 65px;
+    padding: 65px 1vw 0 1vw;
 }
 
 .list-card{
@@ -438,7 +439,7 @@ background-size: cover;
     width: 216px;
     height: 216px;
     border-radius: 50%;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.05);
     margin: 0 auto;
     
   }
@@ -467,3 +468,210 @@ background-size: cover;
     color: #000000;
     color: rgba(0, 0, 0, 0.5);
   }
+
+  /* <!-- ________________________________________________________Customer Says_______________________________________________ --> */
+#customer-says{
+  padding: 30px 3.5vw 0 3.5vw;
+}
+  #customer-says .section-heading{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    }
+  
+    #customer-says .section-heading .heading-line-data{
+      flex-basis: 82%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    }
+    #customer-says .section-heading .heading-line{
+      width: 100%;
+      height: 1.5px;
+      background: rgba(0, 0, 0, 0.35);;
+      text-align: center;
+    }
+    #customer-says .section-heading h2{
+      flex-basis: 18%;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 36px;
+      color: #000000;
+      /* margin-top: -19px; */
+    }
+    .say-customer-card-content{
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 15px;
+      margin: 10px;
+    }
+
+    .customer-info{
+      padding: 50px 38px 20px 38px;
+
+    }
+  
+
+    .say-customer-card h3{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+
+      color: #2FC6BD;
+      padding-top: 20px;
+      padding-left: 15px;
+    }
+
+    .say-customer-card h6{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 18px;
+
+      color: #505050;
+      padding-top: -5px;
+      padding-left: 15px;
+    }
+
+    .say-customer-card .customer-review{
+      padding: 0 2vw 50px 93px;
+    }
+
+    .say-customer-card .customer-review p{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 18px;
+
+      color: rgba(0, 0, 0, 0.5);
+    }
+
+    .say-customer-card-content:first-child{
+      margin-left: 0;
+    }
+    .say-customer-card-content:last-child{
+      margin-right: 0;
+    }
+
+    /* <!-- ___________________________________________________SUMMER-SALE________________________________________ --> */
+
+    #summer-sale{
+      margin-top: 75px;
+      padding: 0 4vw;
+  
+    }
+
+    .summer-sale-content{
+      background: #1DD0C6;
+      border-radius: 25px;
+    }
+
+
+    .summer-sale-top{
+      padding: 0px 65px 0 60px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+   .summer-sale-top h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+   text-align: left;
+    color: #FFFFFF;
+    padding-bottom: 4px;
+
+   }
+
+   .summer-sale-top h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: left;
+    color: #FFFFFF;
+
+    padding-bottom: 8px;
+   }
+
+   .summer-sale-top p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+   }
+
+   .summer-sale-top button{
+    background: transparent;
+    padding: 5px 14px;
+    border: 2px solid #FFFFFF;
+    border-radius: 19.5px;
+    color: white;
+    text-align: left;
+    width: fit-content;
+   }
+
+   .summer-sale-bottom img{
+    margin: -40px 0;
+   }
+
+
+   /* <!-- ___________________________________________________OUR-BRANDS________________________________________ --> */
+
+   #our-brands {
+    padding: 30px 4vw 0 4vw;
+   }
+   #our-brands .section-heading{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    }
+  
+    #our-brands .section-heading .heading-line-data{
+      flex-basis: 85%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   
+  
+    }
+    #our-brands .section-heading .heading-line{
+      width: 100%;
+      height: 1.6px;
+      background: rgba(0, 0, 0, 0.35);;
+      text-align: center;
+    }
+    #our-brands .section-heading h2{
+      flex-basis: 15%;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 36px;
+      color: #000000;
+      /* margin-top: -19px; */
+    }
+
+    .our-brands-logo-part{
+      display: flex;
+      justify-content:space-between;
+      flex-wrap: wrap;
+      padding-top: 60px;
+      padding-bottom: 80px;
+
+    }
