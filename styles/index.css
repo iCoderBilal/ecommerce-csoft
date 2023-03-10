@@ -107,6 +107,7 @@ p,h2,h4{
     border: 2px solid #2FC6BD;
     padding: 0 20px;
 
+
   }
 
 
@@ -312,6 +313,30 @@ p,h2,h4{
     color: #000000;
     color: rgba(0, 0, 0, 0.5);
   }
+
+  @media screen and (max-width:1439px) {
+    #top-category .section-heading .heading-line-data{
+      display: none;
+      flex-basis: 0%;
+    }
+    #top-category .section-heading h2{
+      flex-basis: 100%;
+      padding-bottom: 10px;
+    }
+  }
+  @media screen and (min-width:320px) and (max-width:480px){
+    #top-category .heading-description{
+      padding: 0 2vw;
+    }
+  }
+
+  @media screen and (min-width:1024px) and (max-width:1200px){
+    #top-category{
+      padding: 1vw;
+    }
+  }
+
+
 /* 
   <!-- ___________________________________________________STEPS_______________________________________________ --> */
   #steps-section{
@@ -401,6 +426,10 @@ p,h2,h4{
 
       }
 
+      .for-travel-bottom{
+        display: flex;
+      }
+
       .for-travel-card{
         flex-basis: 33.3%;
         display: flex;
@@ -461,11 +490,62 @@ p,h2,h4{
     color: rgba(0, 0, 0, 0.5);
     padding: 10px 40px 0 40px;
   }
-
-  .for-travel-bottom-data img{
-    display: none;
+  @media screen and (max-width:1439px) {
+    #for-travel .section-heading .heading-line-data{
+      display: none;
+      flex-basis: 0%;
+    }
+    #for-travel .section-heading h2{
+      flex-basis: 100%;
+      padding-bottom: 10px;
+    }
   }
 
+  
+  @media screen and (min-width:320px) and (max-width:480px){
+    .for-travel-card{
+      flex-basis: 100%;
+    }
+    .for-travel-bottom-data img{
+      width: 70vw;
+    }
+
+    .for-travel-bottom{
+      margin-top: 50px;
+    }
+  }
+ 
+  @media screen and (min-width:481px) and (max-width:768px){
+    .for-travel-card{
+      flex-basis: 50%;
+    }
+    .for-travel-bottom{
+      margin-top: 50px;
+    }
+  }
+
+  @media screen and (min-width:769px) and (max-width:989px){
+    .for-travel-card{
+      flex-basis: 33.3%;
+    }
+    .for-travel-bottom{
+      margin-top: 50px;
+    }
+  }
+
+  @media screen and (min-width:990px) and (max-width:1439px){
+    .for-travel-card{
+      flex-basis: 50%;
+    }
+
+    .for-travel-card:last-child, .for-travel-card:nth-child(5){
+      display: none;
+    }
+
+    .for-travel-bottom{
+      display: flex;
+    }
+  }
 
 
   /* <!-- _______________________________________________TOP-MOBILE-PHONES_______________________________________________ --> */
@@ -491,7 +571,7 @@ p,h2,h4{
     line-height: 48px;
     display: flex;
     align-items: center;
-    text-align: right;
+    text-align: left;
 
     color: #FFFFFF;
 }
@@ -520,11 +600,23 @@ height: 240px;
 background-size: cover;
 }
 
+@media screen and (min-width: 320px) and (max-width: 989px) {
+  .top-mobile-phones-content{
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .top-mobile-phones-content h2{
+    text-align: center;
+  }
+
+
+}
+
 /* 
 <!-- _________________________________________LIST______________________________________ --> */
 .list-cards{
-    padding-top: 65px;
-    padding: 65px 1vw 0 1vw;
+    padding: 56px 1vw 0 1vw;
 }
 
 .list-card{
@@ -658,6 +750,17 @@ background-size: cover;
       margin-right: 0;
     }
 
+    @media screen and (max-width:1439px) {
+      #customer-says .section-heading .heading-line-data{
+        display: none;
+      }
+
+      #customer-says .section-heading h2{
+        flex-basis: 100%;
+        text-align: center;
+      }
+    }
+
     /* <!-- ___________________________________________________SUMMER-SALE________________________________________ --> */
 
     #summer-sale{
@@ -725,9 +828,40 @@ background-size: cover;
 
    .summer-sale-bottom img{
     margin: -40px 0;
-    display: none;
+  
    }
 
+   @media screen and (min-width:320px) and (max-width:480px) {
+    .summer-sale-bottom img{
+      width: 70vw;
+    
+     }
+
+     .summer-sale-top{
+      padding: 30px 40px 0 35px;
+     }
+   }
+   @media screen and (min-width:320px) and (max-width:989px){
+    .summer-sale-bottom img{
+      margin: 30px 0 20px 0;
+
+    
+     }
+
+ 
+
+   }
+
+   @media screen and (min-width:768px) and (max-width:989px){
+    .summer-sale-top{
+      padding: 60px 65px 0 60px;
+     }
+
+     .summer-sale-bottom img{
+      width: 40vw;
+    
+     }
+   }
 
    /* <!-- ___________________________________________________OUR-BRANDS________________________________________ --> */
 
@@ -770,7 +904,39 @@ background-size: cover;
       display: flex;
       justify-content:space-between;
       flex-wrap: wrap;
-      padding-top: 60px;
+      padding-top: 10px;
       padding-bottom: 80px;
 
     }
+
+    .our-brand-logo:nth-child(4){
+      padding-top: 12px;
+    }
+
+    @media screen and (max-width: 1439px) {
+      #our-brands .section-heading .heading-line-data{
+        display: none;
+      }
+
+      #our-brands .section-heading h2{
+        flex-basis: 100%;
+        text-align: center;
+      }
+    }
+
+    @media screen and (min-width:320px) and (max-width:480px) {
+      .our-brands-logo-part{
+        justify-content: center;
+      }
+
+      }
+
+      @media screen and (min-width:768px) and (max-width:1439px){
+        .our-brands-logo-part{
+          justify-content: center;
+        }
+
+        .our-brand-logo{
+          padding: 0 20px;
+        }
+      }
