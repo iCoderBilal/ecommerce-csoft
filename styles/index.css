@@ -16,6 +16,7 @@ p,h2,h4{
     padding-top: 100px;
 }
 
+
 .hero-section-top ul{
     padding-left: 4.5vw;
 }
@@ -43,9 +44,12 @@ p,h2,h4{
     color: rgba(0, 0, 0, 0.5);
 }
 
+
+.hero-section-center{
+  flex-basis: 50%;
+}
  .hero-section-center .hero-section-images{
     width: 96%;
-    height: 400px;
     border-radius: 25px;
     margin: 0 auto;
  }
@@ -59,7 +63,7 @@ p,h2,h4{
     border-radius: 25px;
   }
 
-  .hero-section-center .swiper-slide  .slider-content {
+  .hero-section-center .swiper-slide .slider-content {
     padding: 110px 0 0px 30px;
   }
   
@@ -92,6 +96,8 @@ p,h2,h4{
     background: transparent;
     outline: none;
   }
+
+
  
 
   .hero-section-bottom .hero-section-bottom-card{
@@ -100,6 +106,7 @@ p,h2,h4{
     border-radius: 25px;
     border: 2px solid #2FC6BD;
     padding: 0 20px;
+
   }
 
 
@@ -134,6 +141,93 @@ p,h2,h4{
     font-size: 17px;
     margin-right: 20px;
   }
+
+
+  
+  @media screen and (min-width: 320px) and (max-width:767px) {
+    #homepage-hero-section{
+      padding-top: 30px;
+  }
+    
+    .hero-section-center{
+      order: 1;
+    }
+
+    .hero-section-top{
+      order: 2;
+      padding-top: 30px;
+    }
+
+
+    .hero-section-bottom{
+      display: none;
+    }
+
+    .hero-section-top ul{
+      padding-left: 4.5vw;
+      padding-right: 4.5vw;
+      width: 100vw;
+  }
+
+  }
+
+   @media screen and (min-width: 768px) and (max-width:989px){
+    .hero-section-center{
+      order: 1;
+    }
+
+    .hero-section-top{
+      order: 2;
+      padding-top: 30px;
+    }
+
+    .hero-section-bottom{
+      order:3;
+      margin-top: 50px;
+    }
+    .hero-section-bottom-card {
+     margin: 0 auto;
+      
+    }
+
+    .hero-section-top ul{
+      padding-left: 4.5vw;
+      padding-right: 4.5vw;
+      width: 50vw;
+  }
+
+  
+  }  @media screen and (min-width: 990px) and (max-width:1439px){
+    #homepage-hero-section{
+      padding-top: 50px;
+    }
+    
+    .hero-section-bottom{
+      display: none;
+    }
+
+
+    .hero-section-main-div{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .hero-section-top{
+      flex-basis: 40%;
+    }
+
+    .hero-section-top ul{
+      width: 100%;
+    }
+
+    .hero-section-center{
+      flex-basis: 50%;
+      padding-right: 4vw;
+      padding-top: 20px;
+    }
+  }
+
+
 
 
   /* <!-- _____________________________________________TOP_CATEGORY________________________________________________ --> */
