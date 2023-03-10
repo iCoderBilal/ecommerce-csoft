@@ -8,6 +8,7 @@
 #website-header{
     background: #262639;
 border-radius: 0px 0px 60px 60px;
+overflow-x: hidden;
 }
 
 #website-header .navbar{
@@ -29,6 +30,9 @@ border-radius: 0px 0px 60px 60px;
 
     color: #FFFFFF;
 }
+
+
+
 
 #website-header .nav-item a{
     font-family: 'Inter';
@@ -71,6 +75,10 @@ border-radius: 0px 0px 60px 60px;
     width: 100%;
     padding: 0 5vw;
 }
+
+.top-bar-category{
+    display: flex;
+}
 #website-header .top-bar-content-child h3{
     font-family: 'Inter';
     font-style: normal;
@@ -95,9 +103,11 @@ border-radius: 0px 0px 60px 60px;
     color: #939191;
     border: none;
     outline: none;
+  
 
   }
   .search-child button{
+
     padding: 18px 28px;
     background: #2FC6BD;
     border-radius: 0px 100px 100px 0px;
@@ -158,6 +168,8 @@ border-radius: 0px 0px 60px 60px;
 
 }
 
+/* ---------------------------------------Small Screen Laptops -------------------------- */
+
 @media screen and (min-width: 980px) and (max-width: 1170px){
     #website-header .navbar-collapse{
         padding-left: 2vw;  
@@ -173,3 +185,65 @@ border-radius: 0px 0px 60px 60px;
     
 
 }
+
+@media screen and (min-width: 320px) and (max-width:989px) {
+   
+    .top-bar-category{
+        display: none;
+
+    }
+    .header-contact-info{
+        float: left;
+
+        padding-bottom:20px;
+    }
+    .mail-info{
+        padding-right: 30px;
+    }
+}
+
+/* ---------------------------------------MOBILE SCREEN -------------------------- */
+
+@media screen and (min-width: 320px) and (max-width:480px){
+    .header-contact-info{
+        float: left;
+        display: flex;
+        flex-wrap: wrap;
+
+        padding-bottom:20px;
+    }
+    .mail-info{
+        padding-right: 30px;
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:767px){
+    #website-header .header-top-bar .top-bar-content{
+        justify-content: center;
+   
+    }
+
+    .search-child{
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .search-child .search-child-input{
+        width: 70%;
+     margin-top: 30px;
+    }
+
+    .top-bar-login-detail{
+        padding: 30px 0 30px 0;
+}
+}
+/* --------------------------------------IPAD-------------------------- */
+@media screen and (min-width: 768px){
+    #website-header .header-top-bar .top-bar-content{
+        justify-content: space-between;
+   
+    }
+}
+
+

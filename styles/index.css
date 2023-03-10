@@ -368,6 +368,10 @@ p,h2,h4{
     padding: 10px 40px 0 40px;
   }
 
+  .for-travel-bottom-data img{
+    display: none;
+  }
+
 
 
   /* <!-- _______________________________________________TOP-MOBILE-PHONES_______________________________________________ --> */
@@ -627,6 +631,7 @@ background-size: cover;
 
    .summer-sale-bottom img{
     margin: -40px 0;
+    display: none;
    }
 
 
